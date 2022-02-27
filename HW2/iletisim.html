@@ -1,0 +1,76 @@
+<!--
+    20010011506 Irem Nur Dinler
+-->
+<html>
+    <head>
+        <!--Sekme basliginin belirlenmesi-->
+        <title> Iletişim </title>
+        <!--CSS dosyasının dahil edilmesi-->
+        <link rel="stylesheet" href="style.css">   
+    </head>
+    <body>
+
+        <!--Huawei logosu sayfanın başına konuldu ve anasayfaya yonlendirmesi saglandı-->
+        <a href="anasayfa.html">
+            <img src="https://pnggrid.com/wp-content/uploads/2021/04/Huawei-Logo-White-HD-1024x991.png"
+                height="100" style="position: static;margin-left: 610px;margin-bottom: 50px;">  
+        </a>
+
+        <!--Navigasyon barının oluşturulması-->
+        <div class="navigation_bar" style="margin-left: 500px;">            
+                <div><a href="anasayfa.html">Anasayfa</a>&emsp;&emsp;&emsp;</div>
+                <div> <a href="hakkimizda.html">Hakkımızda</a>&emsp;&emsp;&emsp;</div>
+                <div><a href="iletisim.html">Iletişim</a>&emsp;&emsp;&emsp;  </div>
+        </div> 
+
+        <!--Dropdown menunun olusturulması-->
+        <span class="dropdown">
+        <button style="margin-left: 10px;" class="dropbtcreating an">Urunlerimiz</button>
+            <!--Menuye erişim linklerinin eklenmesi-->
+            <div class="dropdown-content">
+                <div>
+                    <a href="https://shop.huawei.com/tr/category/huawei-telefonlar/">Telefonlar</a>
+                </div>                
+                <div>
+                    <a href="https://shop.huawei.com/tr/category/huawei-dizustu-bilgisayarlar/">Bilgisayarlar</a>
+                </div>
+                <div><a href="https://shop.huawei.com/tr/category/huawei-iot-aksesuarlar/">Aksesuarlar</a></div>
+            </div>
+            </span> 
+        <br>
+        <!--Sayfanın başına fotograf eklendi-->
+        <img src="https://cdn-images-1.medium.com/fit/t/1600/480/1*8Fx_5pUpS4wda42aGnuuuQ.jpeg" height="300" style="margin-top: 50px;margin-left: 200px;">
+        <!--Ilerisim formunun olusturulmasi-->    
+        <div class="theform">
+            <form>
+                <li>
+                    <!--Ad Soyad kutucugunun olusturulmasi-->
+                    <label>Adınız&emsp;&emsp;&emsp;&emsp;</label>
+                    <input type="text" name="field1"placeholder="Adınız" />                   
+                <li>
+                    <!--Email kutucugunun olusturulmasi-->
+                    <label>Email&emsp;&emsp;&emsp;&emsp;</label>
+                    <input type="email" name="field2" class="field-long"placeholder="email" />
+                </li>                
+                <li>
+                    <!--Mesaj kutucugunun olusturulmasi-->
+                    <label>Mesajınız&emsp;&emsp;</label>
+                    <textarea name="field3" id="field3" class="field-long field-textarea"placeholder="Mesajınız"></textarea>
+                </li>
+                <li>
+                    <!--Gonder butonunun olusturulmasi-->
+                    <button>Gönder</button>
+                </li>
+
+            </form>            
+        </div>
+
+        <!--En aşağıda görüntülenecek bir menu oluşturuldu-->
+        <div bottom_menu align="center">
+            <a href="https://shop.huawei.com/tr/cms/frequently-asked"><b><i>Sıkca sorulan sorular</i></b></a>
+            <p><b>Huawei çözüm merkezi çalışma saatleri her gün 09:00-23:00 arasındadır.</b></p>
+            <p><i>Platformun ve işlevlerinin herhangi bir bölümünü kullanmanız, Şartları kabul ettiğiniz anlamına gelecektir.</i></p>
+        </bottom_menu>  
+
+    </body>
+</html>

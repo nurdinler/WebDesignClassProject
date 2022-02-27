@@ -1,0 +1,94 @@
+/*
+    20010011506 Irem Nur Dinler
+*/
+
+/*headde yazan yazilarin buyuklugunun belirlenmesi */
+head{
+  font-size:x-large; 
+}
+/*Sayfa arkaplan renginin belirlenmesi
+  Yazi renklerinin belirlenmesi
+*/
+body {
+    background-color:#28282B;  
+    color:white;
+    
+  }
+  /* 
+  navigasyon barinin sola yaklastirilmasi
+  */
+  .navigation_bar div {
+    float:left;
+  }
+  /*
+  navigasyon barinin goruntuleme ayarlari
+  */
+  .navigation_bar div a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .navigation_bar div a:hover {
+    background-color: #111;
+}
+.navigation_bar .active{
+   background-color: #111;  
+}
+  /*
+  hakkimizda kisminin etrafına noktali cerceve yapilmasi
+  */
+  .whoarewe{
+    border: 5px dotted red;
+  }
+/*Yeni urunler kisminin goruntuleme ayarlari*/
+div.new_brands{
+  font-size: x-large;  
+}
+/* sayfanin altindaki menunun yazi buyuklugu ve yerlestirme ayarlari */
+div.bottom_menu{
+  font-size:large; 
+  align-items: center;
+}
+.dropdown-dropbtn{
+  align-items: center;
+}
+/*
+  dropdown menunun goruntuleme ayarlari
+*/
+.dropdown-content {  
+    display: none; 
+    position: relative;
+    background-color: white;
+    min-width: 85px;
+    z-index: 1;
+  }
+  .dropdown-content div {
+    padding: 10px 5px;
+  }
+  .dropdown-content div:hover {
+    background-color: grey;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown:hover{
+    background-color: #474885;
+  }
+  .hide {
+    display: none;
+  }
+  .hidden_item:hover + .hide {
+    display: block;
+    color: red;
+  }
+  /*iletisim formunun goruntuleme ayarlarire*/
+  .theform{
+    margin-top:100px;
+    margin-left: 500px;
+    font-size:large;
+    font-weight: bold;
+    display: block;
+    list-style: none;
+  }
